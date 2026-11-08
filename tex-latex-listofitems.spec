@@ -1,7 +1,7 @@
 Summary:	Grab items in lists using user-specified sep char
 Name:		tex-latex-listofitems
 Version:	1.65
-Release:	1
+Release:	2
 License:	LaTeX Project Public License v1.3+
 Group:		Applications/Publishing
 Source0:	http://mirrors.ctan.org/macros/generic/listofitems.zip
@@ -10,6 +10,7 @@ URL:		https://ctan.org/pkg/listofitems/
 BuildRequires:	/usr/bin/latex
 BuildRequires:	rpmbuild(macros) >= 1.751
 BuildRequires:	unzip
+Provides:	tex(listofitems.sty)
 Requires(post,postun):	/usr/bin/texhash
 # TODO: use generic
 Requires:	texlive-latex
